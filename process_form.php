@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$servername = "localhost";
+$servername = "180.190.186.57";
 $username = "username";
 $password = "password";
 $dbname = "gymko";

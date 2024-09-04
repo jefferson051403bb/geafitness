@@ -1,6 +1,6 @@
 <?php
     // Database connection
-    $hname = 'localhost';
+    $hname = '180.190.186.57';
     $uname = 'root';
     $pass = 'jefferson';
     $db = 'gymko';
