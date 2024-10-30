@@ -1,9 +1,9 @@
 <?php
-
-    $hname = '180.190.186.57';
-    $uname = 'root';
-    $pass = 'jefferson';
-    $db = 'gymko';
+$hname= getenv('DB_HOST');
+   $uname = getenv('DB_USERNAME');
+ $pass = getenv('DB_PASSWORD');
+     $db = getenv('DB_DATABASE');
+    $port = getenv('DB_PORT') ?: '3306'; // Default to 3306 if not set
 
     $con = mysqli_connect($hname, $uname, $pass, $db);
 
